@@ -3,20 +3,41 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+# Default language
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: hayoung's English website title...
+  params:
+    # Open Graph 설정
+    opengraph:
+      type: website
+      image: "/blackback.jpg"  # 대표 이미지 경로
+  manu:
+    - name: Tour
+      url: tour
+      weight: 10
+    - name: News
+      url: post
+      weight: 20
+    - name: People
+      url: people
+      weight: 30
+    - name: Events
+      url: event
+      weight: 40
+    - name: Publications
+      url: publication
+      weight: 50
+    - name: Contact
+      url: contact
+      weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ko:
+  languageCode: ko
+  contentDir: content/ko
+  title: hayoung's korean website title...
+  params:
+    description: Site description in korean...
