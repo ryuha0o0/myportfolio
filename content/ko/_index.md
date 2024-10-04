@@ -8,17 +8,30 @@ sections:
 
   - block: markdown
     content:
-      title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
-      subtitle: <span style='font-size:75%;'>류하영 | 전북대학교</span>
+      title: "<span style='font-size:200%; font-weight:bold;'>About Me</span>"
       text: |
-        <div style="display: flex; flex-direction: column; align-items: center;">
-          <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">          <p style="font-size: 70%; text-align: center;">
-            전공: IT지능정보공학<br>
-            안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! <br>
-            본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
-            관심 분야: 정보보안, 풀스택 개발<br><br>
-            <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
-          </p>
+        <div style="display: flex; align-items: center; gap: 40px;">
+          <!-- 왼쪽 프로필 이미지 -->
+          <div style="flex: 1; text-align: center;">
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover;">
+          </div>
+
+          <!-- 오른쪽 프로필 정보 -->
+          <div style="flex: 2;">
+            <p style="font-size: 120%; line-height: 1.6;">
+              <strong>학교:</strong> 전북대학교<br>
+              <strong>전공:</strong> IT지능정보공학과<br>
+              <strong>연구 분야:</strong> 의료 AI, 계산 과학<br>
+              <strong>관심 분야:</strong> AI 기반 응용, 풀스택 개발<br><br>
+              <span style="font-size: 110%;">저는 현재 전북대학교 컴퓨터 공학과에 재학 중이며, 의료 인공지능 및 계산 과학에 관심을 두고 연구하고 있습니다. 다양한 AI 기반 응용 프로그램 개발에 열정을 가지고 있으며, 풀스택 개발에도 많은 경험을 쌓고 있습니다.</span><br><br>
+
+              <!-- 이력서 다운로드 버튼 -->
+              <a href="3학년_경력활동계획서.pdf" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Download Resume (PDF)</a><br><br>
+
+              <!-- Contact Me 버튼 -->
+              <a href="./contact/" style="background-color: #28a745; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Contact Me</a>
+            </p>
+          </div>
         </div>
     design:
       columns: '1'
@@ -117,27 +130,27 @@ sections:
         - name: 정보보안
           icon: key
           icon_pack: fas
-          description: <span style="font-size:70%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
+          description: <span style="font-size:80%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
         - name: 멀티모달(Multi-modality)
           icon: globe
           icon_pack: fas
-          description:  <span style="font-size:60%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
+          description:  <span style="font-size:80%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
         - name: 의료수학(Medical Math)
           icon: calculator
           icon_pack: fas
-          description:  <span style="font-size:60%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
+          description:  <span style="font-size:80%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
         - name: 컨텐츠 (Contents)
           icon: comment-dots
           icon_pack: fas
-          description:  <span style="font-size:60%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
+          description:  <span style="font-size:80%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
         - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:60%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+          description:  <span style="font-size:80%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
         - name: 솔루션 (Solution)
           icon: app-store-ios
           icon_pack: fab
-          description:  <span style="font-size:60%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+          description:  <span style="font-size:80%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
 
 
   - block: collection
