@@ -46,13 +46,13 @@ sections:
       slides:
 
         - title: <span style="font-size:70%">Recruit</span>
-          content: <span style="font-size:70%">Interested in MacsLAB?</span>
+          content: <span style="font-size:70%">hayoung's portfolio!</span>
           align: center
           background:
             image:
               filename: luke-jones-tBvF46kmwBw-unsplash.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.7
             position: center
             color: '#000'
           link:
@@ -63,46 +63,46 @@ sections:
             url: contact
 
         - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+          content: <span style="font-size:70%">다양한 디자인의 모바일 어플리케이션 제작<span style="font-size:70%">
           align: center
           background:
             image:
               filename: luke-miller-7meutoti8Vw-unsplash.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.7
             position: center
             color: '#000'
 
         - title: <span style="font-size:70%">Healthcare</span>
-          content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+          content: <span style="font-size:70%">정보보호를 위한 웹사이트의 취약점 진단</span>
           align: center
           background:
             image:
               filename: nastia-petruk-rZX6KxPw5pg-unsplash.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.7
             position: center
             color: '#000'
 
         - title: <span style="font-size:70%">Mathematics</span>
-          content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+          content: <span style="font-size:70%">적용 가능한 해킹 코드 개발</span>
           align: center
           background:
             image:
               filename: philip-oroni-VfOGf5RWkeg-unsplash.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.7
             position: center
             color: '#000'
 
         - title: <span style="font-size:70%">Development</span>
-          content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+          content: <span style="font-size:70%">Full-Stack 웹 개발</span>
           align: center
           background:
             image:
               filename: steve-johnson-KKDMyLTIyVs-unsplash.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.7
             position: center
             color: '#000'
 
