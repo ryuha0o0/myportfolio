@@ -114,8 +114,8 @@ sections:
       title: <span style="font-size:75%">Lab's Interests</span>
       text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
       items:
-        - name: 인공지능(AI)
-          icon: code-branch
+        - name: 정보보안
+          icon: key
           icon_pack: fas
           description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
         - name: 멀티모달(Multi-modality)
