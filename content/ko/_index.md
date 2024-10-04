@@ -20,16 +20,6 @@ sections:
             <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
           </p>
         </div>
-      button:
-        text: Download CV
-        url: 3학년_경력활동계획서.pdf
-      social:
-        - icon: envelope
-          icon_pack: fas
-          link: 'iq1564@jbnu.ac.kr'
-        - icon: github
-          icon_pack: fab
-          link: https://github.com/ryuha0o0
     design:
       columns: '1'
 
