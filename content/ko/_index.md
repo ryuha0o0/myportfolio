@@ -30,7 +30,7 @@ sections:
     design:
       columns: '1'
       background:
-        color: '#8bdafd'
+        color: '#b4e6d8'
 
 
 
