@@ -30,7 +30,10 @@ sections:
     design:
       columns: '1'
       background:
-        color: '#b4e6d8'
+        image:
+          filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
+          filters:
+            brightness: 0.5
 
 
 
