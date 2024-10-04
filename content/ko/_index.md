@@ -33,7 +33,10 @@ sections:
         image:
           filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
           filters:
-            brightness: 1.5
+            brightness: 1
+          overlay:  # 오버레이 추가
+            color: '#ffffff'  # 흰색
+            opacity: 0.5  # 투명도 조절
 
 
 
@@ -57,7 +60,7 @@ sections:
             image:
               filename: luke-jones-tBvF46kmwBw-unsplash.jpg
               filters:
-                brightness: 1.7
+                brightness: 0.7
             position: center
             color: '#0000ff'
           link:
@@ -74,7 +77,7 @@ sections:
             image:
               filename: luke-miller-7meutoti8Vw-unsplash.jpg
               filters:
-                brightness: 1.7
+                brightness: 0.7
             position: center
             color: '#0000ff'
 
