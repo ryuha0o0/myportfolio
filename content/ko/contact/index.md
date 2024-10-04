@@ -26,11 +26,11 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
+      contact_links:
+        - icon: comments
+          icon_pack: fas
+          name: Discuss on Forum
+          link: 'https://discord.com/channels/1143851795567869952/1143851796155076630'
     
       # Automatically link email and phone or display as text?
       autolink: true
@@ -46,7 +46,12 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['40px', '40px', '40px', '40px']
+        padding: ['40px', '0px', '40px', '0px']  # 위아래 패딩만 설정
+      margin:
+        top: '0px'
+        right: '20px'  # 오른쪽 여백 설정
+        bottom: '0px'
+        left: '20px'  # 왼쪽 여백 설정
 
   - block: markdown
     content:

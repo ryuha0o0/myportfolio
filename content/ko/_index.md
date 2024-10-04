@@ -50,7 +50,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: luke-jones-tBvF46kmwBw-unsplash.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -67,7 +67,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: luke-miller-7meutoti8Vw-unsplash.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -78,7 +78,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: nastia-petruk-rZX6KxPw5pg-unsplash.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -89,7 +89,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: philip-oroni-VfOGf5RWkeg-unsplash.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -100,7 +100,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: steve-johnson-KKDMyLTIyVs-unsplash.jpg
               filters:
                 brightness: 0.4
             position: center
