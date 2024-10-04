@@ -7,9 +7,17 @@ main:
   - name: Tour
     url: tour
     weight: 10
-  - name: News
+  - name: Project
     url: post
     weight: 20
+  - parent: Project
+    name: North
+    url: event/northproject
+    weight: 21
+  - parent: Project
+    name: Board
+    url: event/example
+    weight: 21
   - name: People
     url: people
     weight: 30
