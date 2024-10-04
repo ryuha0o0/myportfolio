@@ -12,7 +12,7 @@ sections:
         <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
             <p style="font-size: 110%; font-weight: bold; margin: 5px 0;">류하영</p>
             <p style="font-size: 85%; color: gray;">전북대학교</p>
           </div>
