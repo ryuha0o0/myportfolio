@@ -13,12 +13,12 @@ sections:
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
-            <p style="font-size: 110%; font-weight: bold; margin: 5px 0;color: blue;">류하영</p>
-            <p style="font-size: 85%;color: blue;">전북대학교</p>
+            <p style="font-size: 110%; font-weight: bold; margin: 5px 0;color: white;">류하영</p>
+            <p style="font-size: 85%;color: white;">전북대학교</p>
           </div>
           <!-- 오른쪽: 소개 정보 -->
           <div style="text-align: left; max-width: 400px;">
-            <p style="font-size: 95%;color: blue;">
+            <p style="font-size: 95%;color: white;">
               전공: IT지능정보공학<br>
               안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다!<br>
               본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
