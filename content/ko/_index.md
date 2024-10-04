@@ -34,9 +34,9 @@ sections:
           filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
           filters:
             brightness: 1
-          overlay:  # 오버레이 추가
-            color: '#ffffff'  # 흰색
-            opacity: 0.5  # 투명도 조절
+        overlay:  # 오버레이 추가
+          color: '#ffffff'  # 흰색
+          opacity: 0.5  # 투명도 조절
 
 
 
