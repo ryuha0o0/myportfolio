@@ -31,7 +31,7 @@ sections:
       columns: '1'
       background:
         image:
-          filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
+          filename: faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg
           filters:
             brightness: 1
         overlay:  # 오버레이 추가
