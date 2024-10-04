@@ -7,8 +7,9 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
+      title:
       text: |
+        <span style='font-size:100%; font-weight:bold; color: white;'>About Me</span>
         <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
@@ -33,7 +34,7 @@ sections:
         image:
           filename: faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg
           filters:
-            brightness: 1
+            brightness: 0.8
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
