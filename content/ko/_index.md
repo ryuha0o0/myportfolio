@@ -155,7 +155,7 @@ sections:
           - post
           - event
     design:
-      view: community/custom_card
+      view: layouts/patials/views/community/custom_card
       columns: '2'
 
   - block: collection
