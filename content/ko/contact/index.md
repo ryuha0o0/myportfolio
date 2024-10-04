@@ -46,7 +46,7 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['40px', '20px', '40px', '20px']
+        padding: ['40px', '40px', '40px', '40px']
 
   - block: markdown
     content:
@@ -66,4 +66,5 @@ sections:
           text_color_light: true
       spacing:
         padding: ['40px', '20px', '40px', '20px']
+      css_class: fullscreen
 ---
