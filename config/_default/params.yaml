@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: darkly  # 낮 테마를 'darkly'로 변경
+  theme_night: solar  # 밤 테마를 'solar'로 변경
   font: native
   font_size: L
 
