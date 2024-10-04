@@ -17,10 +17,19 @@ sections:
             안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! <br>
             본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
             관심 분야: 정보보안, 풀스택 개발<br><br>
-            <a href="files/3학년_경력활동계획서.pdf" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Download Resume (PDF)</a><br><br>
             <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
           </p>
         </div>
+      button:
+        text: Download CV
+        url: 3학년_경력활동계획서.pdf
+      social:
+        - icon: envelope
+          icon_pack: fas
+          link: 'iq1564@jbnu.ac.kr'
+        - icon: github
+          icon_pack: fab
+          link: https://github.com/ryuha0o0
     design:
       columns: '1'
 
