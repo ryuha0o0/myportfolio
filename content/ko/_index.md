@@ -5,27 +5,65 @@ date: 2024-03-25
 type: landing
 
 sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: blackback.jpg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+# Display name
+
+# Name pronunciation (optional)
+name_pronunciation: ryu ha young
+
+
+# Full name (for SEO)
+first_name: ha young
+last_name: ryu
+
+# Status emoji
+status:
+  icon: ☕️
+
+# Is this the primary user of the site?
+superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Role/position/tagline
+role: Student of JBNU
+
+# Organizations/Affiliations to display in Biography blox
+organizations:
+  - name: Jeonbuk national university
+    url: https://www.jbnu.ac.kr/kor/
+
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+profiles:
+  - icon: at-symbol
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    url: 'mailto:iq1564@jbnu.ac.kr'
+    label: E-mail Me
+  - icon: brands/instagram
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    url: https://www.instagram.com/ha.0_1114/
+  - icon: brands/github
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    url: https://github.com/ryuha0o0
+
+interests:
+  - Information security
+  - Web Service
+  - Computer network
+
+education:
+  - area: IT Intelligence Information Engineering
+    institution: Jeonbuk national university
+    date_start: 2022-03-01
+    summary: |
+      In order to systematically and efficiently educate students who will work in the future intelligent information society and hyperconnected society while actively responding to AI and new technology needs, our department aims to cultivate 5C-GIANT global digital talents based on demand for industries with problem-solving capabilities in the future technology-oriented manner.
+    button:
+      text: 'Introduction to the department'
+      url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
   - block: features
     content:
