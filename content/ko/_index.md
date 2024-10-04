@@ -26,7 +26,7 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
+      title: <span style="font-size:70%"> This web is my portfolio website </span>
       text: <br><span style="font-size:125%">제 포트폴리오 웹 사이트에 오신 것을 환영합니다!.</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
       
