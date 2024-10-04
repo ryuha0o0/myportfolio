@@ -5,65 +5,24 @@ date: 2024-03-25
 type: landing
 
 sections:
-# Display name
 
-# Name pronunciation (optional)
-name_pronunciation: ryu ha young
+  - block: markdown
+    content:
+      title: <span style='font-size:200%; font-weight:bold;'>About Me</span>
+      subtitle: <span style='font-size:150%;'>류하영 | Computer Science</span>
+      text: |
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="Ai.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+          <p style="font-size: 120%; text-align: center;">
+            **전공**: 컴퓨터 공학<br>
+            **연구 분야**: 의료 AI, 계산 과학<br>
+            **관심 분야**: AI 기반 응용, 풀스택 개발<br><br>
+            <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Contact Me</a>
+          </p>
+        </div>
+    design:
+      columns: '1'
 
-
-# Full name (for SEO)
-first_name: ha young
-last_name: ryu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Role/position/tagline
-role: Student of JBNU
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Jeonbuk national university
-    url: https://www.jbnu.ac.kr/kor/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    url: 'mailto:iq1564@jbnu.ac.kr'
-    label: E-mail Me
-  - icon: brands/instagram
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    url: https://www.instagram.com/ha.0_1114/
-  - icon: brands/github
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    url: https://github.com/ryuha0o0
-
-interests:
-  - Information security
-  - Web Service
-  - Computer network
-
-education:
-  - area: IT Intelligence Information Engineering
-    institution: Jeonbuk national university
-    date_start: 2022-03-01
-    summary: |
-      In order to systematically and efficiently educate students who will work in the future intelligent information society and hyperconnected society while actively responding to AI and new technology needs, our department aims to cultivate 5C-GIANT global digital talents based on demand for industries with problem-solving capabilities in the future technology-oriented manner.
-    button:
-      text: 'Introduction to the department'
-      url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
   - block: features
     content:
