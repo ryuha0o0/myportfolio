@@ -12,8 +12,7 @@ sections:
       subtitle: <span style='font-size:150%;'>류하영 | Computer Science</span>
       text: |
         <div style="display: flex; flex-direction: column; align-items: center;">
-          <img src="assets/media/avatar.jpg" "style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
-          <p style="font-size: 120%; text-align: center;">
+          <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">          <p style="font-size: 120%; text-align: center;">
             **전공**: 컴퓨터 공학<br>
             **연구 분야**: 의료 AI, 계산 과학<br>
             **관심 분야**: AI 기반 응용, 풀스택 개발<br><br>
