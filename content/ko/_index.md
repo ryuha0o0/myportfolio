@@ -8,30 +8,18 @@ sections:
 
   - block: markdown
     content:
-      title: "<span style='font-size:200%; font-weight:bold;'>About Me</span>"
+      title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
+      subtitle: <span style='font-size:75%;'>류하영 | 전북대학교</span>
       text: |
-        <div style="display: flex; align-items: center; gap: 40px;">
-          
-          <div style="flex: 1; text-align: center;">
-            <img src="images/profile.jpg" alt="프로필 사진" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover;">
-          </div>
-
-          
-          <div style="flex: 2;">
-            <p style="font-size: 120%; line-height: 1.6;">
-              <strong>학교:</strong> 전북대학교<br>
-              <strong>전공:</strong> IT지능정보공학과<br>
-              <strong>연구 분야:</strong> 의료 AI, 계산 과학<br>
-              <strong>관심 분야:</strong> AI 기반 응용, 풀스택 개발<br><br>
-              <span style="font-size: 110%;">저는 현재 전북대학교 컴퓨터 공학과에 재학 중이며, 의료 인공지능 및 계산 과학에 관심을 두고 연구하고 있습니다. 다양한 AI 기반 응용 프로그램 개발에 열정을 가지고 있으며, 풀스택 개발에도 많은 경험을 쌓고 있습니다.</span><br><br>
-
-          
-              <a href="files/3학년_경력활동계획서.pdf" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Download Resume (PDF)</a><br><br>
-
-              
-              <a href="./contact/" style="background-color: #28a745; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Contact Me</a>
-            </p>
-          </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">          <p style="font-size: 70%; text-align: center;">
+            전공: IT지능정보공학<br>
+            안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! <br>
+            본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
+            관심 분야: 정보보안, 풀스택 개발<br><br>
+            <a href="files/3학년_경력활동계획서.pdf" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Download Resume (PDF)</a><br><br>
+            <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
+          </p>
         </div>
     design:
       columns: '1'
