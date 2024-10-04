@@ -45,7 +45,7 @@ sections:
     content:
       slides:
 
-        - title: <span style="font-size:70%">Recruit</span>
+        - title: <span style="font-size:70%">Contact Me!</span>
           content: <span style="font-size:70%">hayoung's portfolio!</span>
           align: center
           background:
@@ -62,7 +62,7 @@ sections:
             text-color: '#000'
             url: contact
 
-        - title: <span style="font-size:70%">AI</span>
+        - title: <span style="font-size:70%">Mobile App Dev</span>
           content: <span style="font-size:70%">다양한 디자인의 모바일 어플리케이션 제작<span style="font-size:70%">
           align: center
           background:
@@ -73,7 +73,7 @@ sections:
             position: center
             color: '#000'
 
-        - title: <span style="font-size:70%">Healthcare</span>
+        - title: <span style="font-size:70%">Information Security</span>
           content: <span style="font-size:70%">정보보호를 위한 웹사이트의 취약점 진단</span>
           align: center
           background:
@@ -84,7 +84,7 @@ sections:
             position: center
             color: '#000'
 
-        - title: <span style="font-size:70%">Mathematics</span>
+        - title: <span style="font-size:70%">Hacking</span>
           content: <span style="font-size:70%">적용 가능한 해킹 코드 개발</span>
           align: center
           background:
@@ -108,13 +108,13 @@ sections:
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      slide_width: '100px'
+      slide_height: '4500px'
+      slide_width: '90px'
       is_fullscreen: false
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 3000
+      interval: 5000
 
 
   - block: features
