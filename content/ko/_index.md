@@ -29,6 +29,8 @@ sections:
         </div>
     design:
       columns: '1'
+      background:
+        color: '#8bdafd'
 
 
 
