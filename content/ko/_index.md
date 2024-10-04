@@ -9,7 +9,7 @@ sections:
     content:
       title:
       text: |
-        <span style='font-size:100%; font-weight:bold; color: white;'>About Me</span>
+        <span style='font-size:400%; font-weight:bold; color: white; justify-content: center;'>About Me</span>
         <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
