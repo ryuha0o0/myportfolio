@@ -5,12 +5,34 @@ date: 2024-03-25
 type: landing
 
 sections:
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: blackback.jpg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
 
   - block: features
     content:
       title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
       text: <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+      
 
 
   - block: slider
