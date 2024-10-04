@@ -8,15 +8,16 @@ sections:
 
   - block: markdown
     content:
-      title: <span style='font-size:200%; font-weight:bold;'>About Me</span>
-      subtitle: <span style='font-size:150%;'>류하영 | 전북대학교</span>
+      title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
+      subtitle: <span style='font-size:75%;'>류하영 | 전북대학교</span>
       text: |
         <div style="display: flex; flex-direction: column; align-items: center;">
-          <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">          <p style="font-size: 120%; text-align: center;">
+          <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">          <p style="font-size: 70%; text-align: center;">
             전공: IT지능정보공학<br>
-            안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! 본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
+            안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! <br>
+            본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
             관심 분야: 정보보안, 풀스택 개발<br><br>
-            <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 110%;">Contact Me</a>
+            <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
           </p>
         </div>
     design:
