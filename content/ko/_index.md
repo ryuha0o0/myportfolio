@@ -9,28 +9,26 @@ sections:
     content:
       title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
       text: |
-        <div style="background-image: url('backgrousteve-johnson-KKDMyLTIyVs-unsplash.jpg'); background-size: cover; background-position: center; padding: 50px; border-radius: 20px; color: white;">
-          <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-          
-            <div style="display: flex; flex-direction: column; align-items: center;">
-              <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
-              <p style="font-size: 110%; font-weight: bold; margin: 5px 0;">류하영</p>
-              <p style="font-size: 85%; color: white;">전북대학교</p>
-            </div>
-            <div style="text-align: left; max-width: 400px;">
-              <p style="font-size: 95%;">
-                전공: IT지능정보공학<br>
-                안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다!<br>
-                본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
-                관심 분야: 정보보안, 풀스택 개발<br><br>
-                <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
-              </p>
-            </div>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+          <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
+            <p style="font-size: 110%; font-weight: bold; margin: 5px 0;">류하영</p>
+            <p style="font-size: 85%; color: gray;">전북대학교</p>
+          </div>
+          <!-- 오른쪽: 소개 정보 -->
+          <div style="text-align: left; max-width: 400px;">
+            <p style="font-size: 95%;">
+              전공: IT지능정보공학<br>
+              안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다!<br>
+              본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
+              관심 분야: 정보보안, 풀스택 개발<br><br>
+              <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
+            </p>
           </div>
         </div>
     design:
       columns: '1'
-
 
 
 
