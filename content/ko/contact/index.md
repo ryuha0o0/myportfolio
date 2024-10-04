@@ -45,6 +45,8 @@ sections:
           captcha: false
     design:
       columns: '1'
+      spacing:
+        padding: ['40px', '20px', '40px', '20px']
 
   - block: markdown
     content:
@@ -64,5 +66,4 @@ sections:
           text_color_light: true
       spacing:
         padding: ['40px', '20px', '40px', '20px']
-      css_class: fullscreen
 ---
