@@ -8,7 +8,7 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  title: hayoung's English website title...
+  title: hayoung's website
   params:
     # Open Graph 설정
     opengraph:
@@ -46,6 +46,6 @@ en:
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: hayoung's korean website title...
+  title: hayoung's website
   params:
     description: Site description in korean...
