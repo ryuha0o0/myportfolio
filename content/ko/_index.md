@@ -94,7 +94,7 @@ sections:
             image:
               filename: nastia-petruk-rZX6KxPw5pg-unsplash.jpg
               filters:
-                brightness: 1.7
+                brightness: 1
             position: center
             color: '#0000ff'
 
