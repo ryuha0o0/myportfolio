@@ -33,7 +33,7 @@ sections:
         image:
           filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
           filters:
-            brightness: 0.5
+            brightness: 1.5
 
 
 
@@ -57,9 +57,9 @@ sections:
             image:
               filename: luke-jones-tBvF46kmwBw-unsplash.jpg
               filters:
-                brightness: 0.7
+                brightness: 1.7
             position: center
-            color: '#000'
+            color: '#0000ff'
           link:
             icon: user
             icon_pack: fas
@@ -74,9 +74,9 @@ sections:
             image:
               filename: luke-miller-7meutoti8Vw-unsplash.jpg
               filters:
-                brightness: 0.7
+                brightness: 1.7
             position: center
-            color: '#000'
+            color: '#0000ff'
 
         - title: <span style="font-size:70%">Information Security</span>
           content: <span style="font-size:70%">정보보호를 위한 웹사이트의 취약점 진단</span>
@@ -85,9 +85,9 @@ sections:
             image:
               filename: nastia-petruk-rZX6KxPw5pg-unsplash.jpg
               filters:
-                brightness: 0.7
+                brightness: 1.7
             position: center
-            color: '#000'
+            color: '#0000ff'
 
         - title: <span style="font-size:70%">Hacking</span>
           content: <span style="font-size:70%">적용 가능한 해킹 코드 개발</span>
@@ -96,9 +96,9 @@ sections:
             image:
               filename: philip-oroni-VfOGf5RWkeg-unsplash.jpg
               filters:
-                brightness: 0.7
+                brightness: 1.7
             position: center
-            color: '#000'
+            color: '#0000ff'
 
         - title: <span style="font-size:70%">Development</span>
           content: <span style="font-size:70%">Full-Stack 웹 개발</span>
@@ -107,9 +107,9 @@ sections:
             image:
               filename: steve-johnson-KKDMyLTIyVs-unsplash.jpg
               filters:
-                brightness: 0.7
+                brightness: 1.7
             position: center
-            color: '#000'
+            color: '#0000ff'
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
