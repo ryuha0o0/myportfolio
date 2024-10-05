@@ -1,16 +1,8 @@
 ---
-title: Example Event
+title: The North
 
-event: Wowchemy Conference
-event_url: https://example.org
-
-location: Wowchemy HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+event: Web Project named NORTH
+event_url: https://github.com/ryuha0o0/WService
 
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'

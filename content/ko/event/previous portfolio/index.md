@@ -1,10 +1,10 @@
 ---
-title: Making Community web for study
+title: Previous Portfolio
 
-event: Community web
-event_url: https://github.com/ryuha0o0/Study
+event: Portfolio before this portfolio
+event_url: https://github.com/ryuha0o0/portfolio
 
-summary: An example event.
+summary: Portfolio before this portfolio
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
