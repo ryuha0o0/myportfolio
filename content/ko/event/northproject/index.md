@@ -43,6 +43,6 @@ slides:
 projects:
 ---
 <dl>
-    <dt>깃허브 주소</dt>
+    <dt>깃 허 브  주 소</dt>
     <dd><a href="https://github.com/ryuha0o0/WService" target="_blank">https://github.com/ryuha0o0/WService</a></dd>
 </dl>

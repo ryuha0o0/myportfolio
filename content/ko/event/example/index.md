@@ -42,7 +42,11 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
+<div style="position: relative; width: 100%; height: 300px;">
+  <img src="faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg" alt="banner" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+  </div>
+</div>
 Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
