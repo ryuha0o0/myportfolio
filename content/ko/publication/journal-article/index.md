@@ -5,12 +5,10 @@ authors:
 author_notes:
   - "Equal contribution"
   - "Equal contribution"
-date: "2024-1-15"
+date: "2023-09-07T00:00:00Z"
 doi: ""
 
-publishDate: "2024-10-06T00:00:00Z"
-
-publication_types: ["article-journal"]
+publishDate: "2024-10-05T00:00:00Z"
 
 publication: "*대천 여행 회고록*"
 publication_short: ""

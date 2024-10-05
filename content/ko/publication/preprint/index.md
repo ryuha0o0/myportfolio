@@ -2,12 +2,13 @@
 title: "🌸 전주 완산칠봉꽃동산 데이트 기록"
 authors:
   - admin
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
 date: "2024-07-10T00:00:00Z"
 doi: ""
 
-publishDate: "2024-10-06T00:00:00Z"
-
-publication_types: ["article"]
+publishDate: "2024-10-05T00:00:00Z"
 
 publication: ""
 publication_short: ""
