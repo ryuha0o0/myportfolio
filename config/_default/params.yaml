@@ -16,9 +16,9 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
+    local_business_type: 'EducationalOrganization'
     org_name: '전북대 류하영'
-    description: 'check my profile! - 전북대학교 류하영'
+    description: '전북대학교 류하영의 공식 프로필 페이지입니다. 학력, 경력, 관심사 정보를 확인하세요.'
     keywords: ['류하영','전북대학교','전북대학교 류하영','전북대','전북대 하영']
     twitter: 'GetResearchDev'
     image: 'faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg'
@@ -28,7 +28,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'DLQgOU2NjhnavVvIUKc-M6rHxL4VO'
     baidu: ''
 
 # Site header
