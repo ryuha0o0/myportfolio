@@ -216,7 +216,7 @@ sections:
       page_type: publication
     design:
       view: community/custom_card
-      columns: '4'
+      columns: '2'
 
   - block: markdown
     content:

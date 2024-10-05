@@ -20,9 +20,9 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="max-width: 600px; max-height: 350px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
+<div class="card" style="max-width: 800px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
   {{ with $resource }}
-  {{ $image := .Resize "350x" }}
+  {{ $image := .Resize "200x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
