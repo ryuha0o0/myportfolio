@@ -9,44 +9,8 @@ en:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
   title: hayoung's website
-  params:
-    # Open Graph 설정
-    opengraph:
-      type: website
-      image: "/blackback.jpg"  # 대표 이미지 경로
-  manu:
-    - name: Project
-      url: post
-      weight: 20
-    - parent: Project
-      name: North
-      url: event/northproject
-      weight: 21
-    - parent: Project
-      name: Board
-      url: event/example
-      weight: 21
-    - parent: Project
-      name: Previous Portfolio
-      url: event/previousportfolio
-      weight: 21
-    - name: post
-      url: post
-      weight: 40
-    - name: Travel records
-      url: publication
-      weight: 50
-    - name: Contact
-      url: contact
-      weight: 60
-    - name: profile
-      url: en/selfintro
-      weight: 70
-
 # Uncomment the lines below to configure your website in a second language.
 ko:
   languageCode: ko
   contentDir: content/ko
   title: hayoung's website
-  params:
-    description: Site description in korean...
