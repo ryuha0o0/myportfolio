@@ -20,7 +20,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="max-width: 600px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
+<div class="card" style="max-width: 600px; max-height: 350px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
   {{ with $resource }}
   {{ $image := .Resize "350x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
