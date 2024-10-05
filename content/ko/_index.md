@@ -3,7 +3,6 @@
 title:
 date: 2024-03-25
 type: landing
-image: "luke-jones-tBvF46kmwBw-unsplash.jpg"
 
 sections:
   - block: markdown
@@ -71,7 +70,7 @@ sections:
           link:
             icon: user
             icon_pack: fas
-            text: <span style="font-size:60%">Join Us</span>
+            text: <span style="font-size:60%">contact</span>
             text-color: '#000'
             url: contact
 
