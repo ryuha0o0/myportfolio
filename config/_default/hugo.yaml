@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: hayoung's profile # Website name
-baseURL: 'https://hayoung.com/' # Website URL
+baseURL: 'https://jbnu.hayoung.or.kr/' # Website URL
 
 ############################
 ## LANGUAGE
