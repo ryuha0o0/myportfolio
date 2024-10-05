@@ -24,7 +24,7 @@ sections:
               안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! 잘 부탁 드립니다<br>
               본 웹 사이트는 제 다양한 소개를 담은 사이트입니다. 제 전공 소개부터 다양한 제 관심사와 공부 분야에 대해서 이야기해 드립니다<br>
               관심 분야는 정보보안, 풀스택 개발입니다<br><br>
-              <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
+              <a href="./contact/" class="btn">Contact Me</a>
             </p>
           </div>
         </div>

@@ -7,3 +7,19 @@
 .cta-group {
   justify-content: center;
 }
+
+/* 기본 버튼 스타일 */
+.btn {
+  background-color: #007bff; /* 기본 배경색 */
+  color: white; /* 기본 텍스트 색 */
+  padding: 10px 20px; /* 패딩 */
+  border: none; /* 테두리 없음 */
+  border-radius: 5px; /* 둥근 모서리 */
+  cursor: pointer; /* 마우스 포인터 변경 */
+  transition: background-color 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* 호버 스타일 */
+.btn:hover {
+  background-color: #0056b3; /* 호버 시 배경색 */
+}
