@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ryu Hayoung
+title: Ryuhayoung
 
 # Full Name (for SEO)
 first_name: Hayoung
