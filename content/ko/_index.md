@@ -198,7 +198,7 @@ sections:
       order: desc
       page_type: publication
     design:
-      view: c
+      view: community/custom_card
       columns: '2'
     advanced:
       css_style: "text-align: center;"
