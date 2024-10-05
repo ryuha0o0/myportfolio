@@ -3,6 +3,7 @@
 title:
 date: 2024-03-25
 type: landing
+image: "luke-jones-tBvF46kmwBw-unsplash.jpg"
 
 sections:
   - block: markdown
