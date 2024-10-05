@@ -1,68 +1,42 @@
 ---
-title: "An example preprint / working paper"
+title: "🌸 전주 완산칠봉꽃동산 데이트 기록"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+  - admin
+date: "2024-07-10T00:00:00Z"
 doi: ""
 
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-10-06T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
-# Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 봄에 전주의 완산칠봉꽃동산에서 즐거운 데이트를 보냈던 기억이 떠오릅니다. 벚꽃이 다 지고 겹벚꽃이 만개할 때쯤 방문했는데, 그곳은 정말 아름다운 풍경으로 가득 차 있었습니다. 많은 사람들로 붐비는 가운데, 철쭉과 겹벚꽃이 어우러져 절경을 이루었고, 그 순간의 아름다움을 지금도 잊지 못합니다.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 전주 완산칠봉꽃동산에서의 즐거운 데이트 기억을 담아봅니다. 벚꽃과 철쭉의 절경 속에서 특별한 순간을 경험했습니다.
 
 tags:
-- Source Themes
+  - 전주
+  - 꽃동산
+  - 데이트
+
 featured: false
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: '꽃동산 사진'
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects:
-- internal-project
+  - internal-project
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: example
 ---
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+이번 기록은 봄날에 전주의 완산칠봉꽃동산을 찾아갔던 즐거운 데이트에 대한 것입니다. 그 날, 벚꽃은 이미 지고 겹벚꽃이 만개한 시점이었고, 그곳은 환상적인 꽃들이 만개하여 마치 동화 속에 들어온 듯한 기분을 느꼈습니다. 사람들은 많았지만, 그만큼 꽃의 아름다움도 더 빛났던 것 같습니다.
+
+우리는 철쭉과 겹벚꽃으로 가득한 풍경을 배경으로 사진을 찍으며 즐거운 시간을 보냈습니다. 특히 기억에 남는 것은 그 분홍색으로 가득 찬 하늘이었는데, 마치 꽃이 하늘을 덮고 있는 듯한 모습이 정말 아름다웠습니다. 그 순간의 기분과 풍경은 결코 잊지 못할 것 같아요.
+
+그날의 소중한 기억은 제 마음 속에 항상 남아있을 것이며, 꽃과 자연이 주는 아름다움이 얼마나 큰 행복인지를 다시 한번 느꼈습니다. 이런 경험들이 쌓여서 우리의 일상이 더욱 특별해지는 것 아닐까요?

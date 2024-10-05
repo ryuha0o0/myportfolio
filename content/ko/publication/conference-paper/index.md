@@ -1,86 +1,41 @@
 ---
-title: 'An example conference paper'
+title: '🌊 여수 여행'
 
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
 
-# Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2023-08-26'
 doi: ''
 
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-10-06'
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+abstract: 여수는 정말 아름다운 도시입니다. 친구들과 함께 여행을 떠나 여러 명이 함께 숙소를 잡고, 정말 즐거운 시간을 보냈습니다. 날씨가 약간 쌀쌀했지만 그 덕분에 바다에 들어가는 대신, 더 많은 이야기를 나누고 소중한 추억을 만들 수 있었습니다. 우리가 준비한 다양한 음식을 해먹으며, 서로의 요리 실력을 뽐내기도 했습니다. 특히, 신선한 해산물로 만든 요리는 정말 맛있었습니다. 그리고 아쿠아리움에 가서 다양한 해양 생물들을 관찰하며 감탄의 연속이었습니다. 아쿠아리움에서 본 예쁜 물고기와 해양 생물들은 모두 우리의 여행의 하이라이트였습니다. 이렇게 좋은 친구들과 함께한 여수 여행은 정말 잊지 못할 추억으로 남을 것 같습니다.
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 여수는 친구들과 함께한 특별한 여행지로, 다양한 음식을 해먹고 아쿠아리움을 방문하며 즐거운 시간을 보냈습니다.
 
 tags: []
 
-# Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: '여수에서 찍은 사진'
   focal_point: ''
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects:
   - example
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: example
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+여수 여행에서의 경험을 좀 더 자세히 말씀드리자면, 친구들과 함께 모여서 숙소를 잡고, 오랜만에 다 같이 모여 즐거운 시간을 보냈습니다. 날씨는 다소 쌀쌀했지만, 우리는 수영 대신 따뜻한 방에서 서로의 이야기를 나누며 좋은 시간을 보냈습니다.
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+저희가 직접 요리한 다양한 음식은 정말 맛있었어요. 특히 신선한 해산물로 만든 요리는 여행의 하이라이트 중 하나였습니다.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+아쿠아리움에서는 다양한 해양 생물들을 관찰하며, 그들의 색깔과 생김새에 감탄했습니다. 특히, 수조 속에서 유영하는 물고기들을 보며 느꼈던 그 신비로운 느낌은 지금도 생생하게 기억에 남아 있습니다. 이렇게 즐거운 여수 여행은 친구들과의 소중한 추억을 더해주었습니다.

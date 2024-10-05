@@ -25,7 +25,7 @@ main:
   - name: post
     url: post
     weight: 40
-  - name: Publications
+  - name: Travel records
     url: publication
     weight: 50
   - name: Contact
