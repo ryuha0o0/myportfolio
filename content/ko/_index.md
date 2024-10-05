@@ -167,7 +167,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: Notifications & News
+      title: Latest Post
       subtitle:
       text:
       count: 3
@@ -186,7 +186,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: Notifications & News
+      title: Project
       subtitle:
       text:
       count: 3
@@ -199,7 +199,7 @@ sections:
       view: community/custom_card2
       columns: '1'
       
-  - block: collection
+  - block: Literature of interest
     content:
       title: Latest Publications
       subtitle:
