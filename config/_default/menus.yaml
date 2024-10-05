@@ -20,7 +20,7 @@ main:
     url: event/previousportfolio
     weight: 21
   - name: Profile
-    url: author/류하영/
+    url: author/admin/
     weight: 30
   - name: post
     url: post
