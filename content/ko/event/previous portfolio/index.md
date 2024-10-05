@@ -1,11 +1,11 @@
 ---
 title: Previous Portfolio
 
-event: Portfolio before this portfolio
+event: 이전 포트폴리오
 event_url: https://github.com/ryuha0o0/portfolio
 
-summary: Portfolio before this portfolio
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: 현재 포트폴리오를 만들기 전에 만든 포트폴리오 웹사이트
+abstract: '이 포트폴리오는 현재의 포트폴리오를 제작하기 전의 프로토타입이자 연습 개념으로 개발되었습니다. Hugo를 사용하여 GitHub Pages에서 호스팅하였으며, 다양한 웹 기술과 디자인 원칙을 시험해 보았습니다. 이 사이트를 통해 웹 개발에 대한 이해를 깊이 있게 다지고, 사용자 경험을 고려한 디자인을 실험할 수 있었습니다. 또한, 다양한 기능을 구현하면서 발생한 문제들을 해결하는 과정을 통해 개발자로서의 역량을 더욱 향상시킬 수 있었습니다.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -26,7 +26,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-url_code: ''
+url_code: 'https://github.com/ryuha0o0/portfolio'  # 깃허브 주소 추가
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -46,10 +46,13 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
+이 포트폴리오는 현재의 포트폴리오를 만들기 전의 프로토타입이자 연습 개념으로 개발되었습니다. Hugo를 사용하여 GitHub Pages에서 호스팅하였으며, 다양한 웹 기술과 디자인 원칙을 시험해 보았습니다.
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+사이트를 통해 웹 개발에 대한 이해를 깊이 있게 다지고, 사용자 경험을 고려한 디자인을 실험할 수 있었습니다. 또한, 다양한 기능을 구현하면서 발생한 문제들을 해결하는 과정을 통해 개발자로서의 역량을 더욱 향상시킬 수 있었습니다.
 
-Further event details, including page elements such as image galleries, can be added to the body of this page.
+프로젝트의 GitHub 저장소는 아래 링크에서 확인할 수 있습니다. 피드백이나 질문이 있다면 언제든지 환영합니다!
+
+<dl>
+    <dt>깃허브 주소</dt>
+    <dd><a href="https://github.com/ryuha0o0/portfolio" target="_blank">https://github.com/ryuha0o0/portfolio</a></dd>
+</dl>
