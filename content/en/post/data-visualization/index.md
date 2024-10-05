@@ -5,18 +5,24 @@ date: 2024-09-30
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Web Hacking
+  - Web security
+  - File Vulnerability
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 
 ## File Upload Vulnerability(파일 업로드 취약성)
 
 ⇒ 공격자의 파일을 업로드하는 과정에서 발생. 파일 시스템 상 임의 경로에 원하는 파일을 업로드, 악성 확장자를 갖는 파일을 업로드할 수 있을 때 발생.
 
 원하는 cmd를 실행하는 원격 코드 실행 취약점을 유발할 수 있다
+
 
 ### Path Traversal**🛣️**
 

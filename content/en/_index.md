@@ -7,23 +7,24 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: <span style='font-size:100%; font-weight:bold;'>About Me</span>
+      title:
       text: |
+        <span style='font-size:300%; font-weight:bold; color: white; justify-content: center; align-items: center;'>About Me</span>
         <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 120px; height: 120px; object-fit: cover; margin-bottom: 10px;">
-            <p style="font-size: 110%; font-weight: bold; margin: 5px 0;">류하영</p>
-            <p style="font-size: 85%;">전북대학교</p>
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 10px;">
+            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">류하영</p>
+            <p style="font-size: 95%;color: white;">전북대학교</p>
           </div>
           <!-- 오른쪽: 소개 정보 -->
-          <div style="text-align: left; max-width: 400px;">
-            <p style="font-size: 95%;">
+          <div style="text-align: left; max-width: 500px;">
+            <p style="font-size: 95%;color: white;">
               전공: IT지능정보공학<br>
-              안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다!<br>
-              본 웹 사이트는 제 다양한 소개를 담은 사이트입니다.<br>
-              관심 분야: 정보보안, 풀스택 개발<br><br>
-              <a href="./contact/" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Contact Me</a>
+              안녕하세요, 전북대학교 IT지능정보공학과의 류하영입니다! 잘 부탁 드립니다<br>
+              본 웹 사이트는 제 다양한 소개를 담은 사이트입니다. 제 전공 소개부터 다양한 제 관심사와 공부 분야에 대해서 이야기해 드립니다<br>
+              관심 분야는 정보보안, 풀스택 개발입니다<br><br>
+              <a href="./contact/" class="btn">Contact Me</a>
             </p>
           </div>
         </div>
@@ -31,7 +32,7 @@ sections:
       columns: '1'
       background:
         image:
-          filename: boliviainteligente-GC6CUNdDL9Y-unsplash.jpg
+          filename: faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg
           filters:
             brightness: 0.8
         overlay:  # 오버레이 추가
@@ -45,7 +46,7 @@ sections:
     content:
       title: <span style="font-size:70%"> This web is my portfolio website </span>
       text: <br><span style="font-size:125%">제 포트폴리오 웹 사이트에 오신 것을 환영합니다!.</span> <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+        <a href="./post/" class="btn">See my posts</a>
       
 
 
@@ -69,7 +70,7 @@ sections:
           link:
             icon: user
             icon_pack: fas
-            text: <span style="font-size:60%">Join Us</span>
+            text: <span style="font-size:60%">contact</span>
             text-color: '#000'
             url: contact
 
@@ -137,36 +138,36 @@ sections:
       title: <span style="font-size:65%">hayoung's Interests</span>
       text: 저는 이런 분야에 관심을 두고 있어요.<br><br><br><br>
       items:
-        - name: 정보보안
+        - name: 웹 보안
           icon: key
           icon_pack: fas
-          description: <span style="font-size:80%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
+          description: <span style="font-size:80%">공부했던 웹을 기반으로 웹 보안을 공부.</span><br><br>
+        - name: 모바일 어플리케이션
+          icon: mobile-screen
           icon_pack: fas
-          description:  <span style="font-size:80%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
-        - name: 의료수학(Medical Math)
-          icon: calculator
+          description:  <span style="font-size:80%">안드로이드 기반의 모바일 앱 개발.</span><br><br>
+        - name: 소프트웨어 공학
+          icon: chalkboard-user
           icon_pack: fas
-          description:  <span style="font-size:80%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
-        - name: 컨텐츠 (Contents)
-          icon: comment-dots
+          description:  <span style="font-size:80%">소프트웨어 공학을 바탕으로 리더쉽 있게 프로젝트를 이끌어감.</span><br><br>
+        - name: 그림
+          icon: object-ungroup
           icon_pack: fas
-          description:  <span style="font-size:80%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
-        - name: 개발 (Development)
+          description:  <span style="font-size:80%">다양한 그림을 그려 아이디어를 구체화</span><br><br>
+        - name: 개발
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:80%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
-        - name: 솔루션 (Solution)
-          icon: app-store-ios
-          icon_pack: fab
-          description:  <span style="font-size:80%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+          description:  <span style="font-size:80%">스프링 부트로 풀스택 웹 개발.</span><br><br>
+        - name: 모의해킹
+          icon: masks-theater
+          icon_pack: fas
+          description:  <span style="font-size:80%">파이썬을 기반으로 다양한 해킹 코드 제작</span><br><br>
 
 
   - block: collection
     content:
       id: section-1
-      title: Notifications & News
+      title: Latest Post
       subtitle:
       text:
       count: 3
@@ -176,14 +177,31 @@ sections:
         folders:
           - notification
           - post
-          - event
     design:
-      view: layouts/patials/views/community/custom_card
-      columns: '2'
-
+      view: community/custom_card
+      columns: '1'
+    advanced:
+      css_style: "display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;"
+      
   - block: collection
     content:
-      title: Latest Publications
+      id: section-1
+      title: Project
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - event
+    design:
+      view: community/custom_card2
+      columns: '1'
+      
+  - block: collection
+    content:
+      title: Travel records
       subtitle:
       text:
       count: 3
@@ -197,10 +215,8 @@ sections:
       order: desc
       page_type: publication
     design:
-      view: community/custom_card
-      columns: '2'
-    advanced:
-      css_style: "text-align: center;"
+      view: community/custom_card3
+      columns: '1'
 
   - block: markdown
     content:

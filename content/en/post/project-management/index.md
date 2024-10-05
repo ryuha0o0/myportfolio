@@ -5,12 +5,16 @@ date: 2024-09-30
 authors:
   - admin
 tags:
-  - Hugo Blox
-  - Markdown
+  - CSRF
+  - XSS
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 # **Cross Site Scripting (XSS)**
 
 XSS는 클라이언트 사이드 취약점 중 하나로, 공격자가 웹 리소스에 악성 스크립트를 삽입해 이용자의 웹 브라우저에서 해당 스크립트를 실행할 수 있습니다. 공격자는 해당 취약점을 통해 특정 계정의 세션 정보를 탈취하고 해당 계정으로 임의의 기능을 수행할 수 있습니다. 예를 들어, 드림핵 웹 페이지에서 XSS 취약점이 존재하면 https://dreamhack.io 내에서 오리진 권한으로 악성 스크립트를 삽입합니다. 이후에 이용자가 악성 스크립트가 포함된 페이지를 방문하면 공격자가 임의로 삽입한 스크립트가 실행되어 쿠키 및 세션이 탈취될 수 있습니다.

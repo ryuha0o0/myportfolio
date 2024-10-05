@@ -5,12 +5,16 @@ date: 2024-09-30
 authors:
   - admin
 tags:
-  - Second Brain
-  - Markdown
+  - Command Injection
+  - SQL Injection
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 ```jsx
 /*
 아래 쿼리 질의는 다음과 같은 의미를 가지고 있습니다.

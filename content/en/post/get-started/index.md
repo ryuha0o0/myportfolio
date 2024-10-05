@@ -10,13 +10,17 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Session
+  - Web Security
+  - Cookie
 ---
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 
 ### 쿠키 (Cookie)
 

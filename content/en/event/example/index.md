@@ -1,24 +1,13 @@
 ---
-title: Example Event
+title: Creating a Bulletin Board Website for Study
 
-event: Wowchemy Conference
-event_url: https://example.org
-
-location: Wowchemy HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-
-summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Bulletin board website project.
+abstract: 'This project shares the experiences gained while creating a bulletin board website for study purposes. The pagination of the bulletin board, login service, and database connection were particularly challenging. Overcoming these challenges allowed me to learn and grow significantly. Through this project, I was able to understand various aspects of web development and develop practical problem-solving skills.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-01-01T13:00:00Z'
+date_end: '2024-04-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -34,7 +23,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-url_code: ''
+url_code: 'https://github.com/ryuha0o0/Study'  # Added GitHub link for the project
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -54,10 +43,13 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
+This project involved many challenges while creating a bulletin board website to learn the basics of web development. The most difficult aspects were implementing pagination for the bulletin board, setting up the user login service, and connecting to the database.
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+Pagination was essential to prevent a poor user experience when the number of posts increased, but I felt overwhelmed when trying to implement it for the first time. The login service was also a crucial part for user authentication, requiring significant time to handle session management and security issues. Connecting to the database also presented challenges in writing and debugging various queries.
 
-Further event details, including page elements such as image galleries, can be added to the body of this page.
+These difficulties enhanced my problem-solving skills and deepened my understanding of web development. This project has taught me a lot and will greatly help my growth as a developer in the future.
+
+<dl>
+    <dt>GitHub Link</dt>
+    <dd><a href="https://github.com/ryuha0o0/portfolio" target="_blank">https://github.com/ryuha0o0/portfolio</a></dd>
+</dl>

@@ -1,75 +1,40 @@
 ---
-title: "An example journal article"
+title: "🚢 대천 여행"
 authors:
-- admin
-- Robert Ford
+  - admin
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+  - "Equal contribution"
+  - "Equal contribution"
+date: "2023-09-07T00:00:00Z"
 doi: ""
 
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-10-05T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 대천으로의 당일치기 여행은 정말 즐거운 경험이었습니다. 사진 동아리 '시담사' 친구들과 함께 바다를 찾아 떠났고, 짧은 시간이었지만 어지간한 2박 3일 여행보다 더 많은 사진을 찍고 돌아왔습니다. 바다의 풍경은 너무나 아름다웠지만, 노을이 금방 구름에 가려져 아쉬움이 남았습니다.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 대천에서의 당일치기 여행은 친구들과 함께 많은 사진을 찍고 아름다운 바다를 즐긴 기억이 남았습니다.
 
 tags:
-- Source Themes
+  - 대천
+  - 여행
+  - 사진
+
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: '대천의 사진'
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+대천 여행에서의 경험을 말씀드리자면, 친구들과 함께 사진 동아리 '시담사'의 일원으로 떠난 당일치기 여행이었습니다. 비록 짧은 시간이었지만, 어지간한 2박 3일 여행보다 더 많은 사진을 찍고 돌아오는 즐거운 경험이었습니다.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+바다의 풍경은 정말 아름다웠고, 파란 바다와 하늘은 인상적이었습니다. 하지만 아쉬운 점은 노을이 금방 구름에 가려져서 그 모습을 오래도록 감상할 수 없었다는 것입니다. 그래도 친구들과의 소중한 기억은 언제까지나 잊지 못할 것입니다.
