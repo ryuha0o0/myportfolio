@@ -31,7 +31,7 @@ en:
       url: event/previousportfolio
       weight: 21
     - name: Profile
-      url: author/profile/
+      url: author/profile
       weight: 30
     - name: post
       url: post
