@@ -20,22 +20,23 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="margin: 20px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+<div class="card">
   {{ with $resource }}
-  {{ $image := .Resize "400x" }}  <!-- 크기를 줄입니다 -->
+  {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; object-fit: cover; border-bottom: 1px solid #e0e0e0;">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="margin-top: 15px;">
   </a>
   {{ end }}
-  <div class="card-text" style="padding: 15px;">
-    <div class="section-subheading article-title mb-1 mt-2">
-      <h4 style="margin: 0;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: #333;">{{ $item.Title | markdownify | emojify }}</a></h4>
+  <div class="card-text">
+    <div class="section-subheading article-title mb-1 mt-3">
+      <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
 
+
     {{ if $item.Params.authors }}
-    <div class="article-metadata" style="font-size: 14px; color: #666;">
+    <div class="article-metadata">
       <div>
         {{ partial "page_metadata_authors" $item }}
       </div>
@@ -43,13 +44,13 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style" style="font-size: 15px; line-height: 1.5; color: #555;">
-      <p style="margin: 10px 0;">{{ . }}</p>
+    <div class="article-style">
+      <p>{{ . }}</p>
     </div>
     {{ end }}
 
     {{ if $has_attachments }}
-    <div class="btn-links" style="margin-top: 10px;">
+    <div class="btn-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
     </div>
     {{ end }}
