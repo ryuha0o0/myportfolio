@@ -138,30 +138,30 @@ sections:
       title: <span style="font-size:65%">hayoung's Interests</span>
       text: 저는 이런 분야에 관심을 두고 있어요.<br><br><br><br>
       items:
-        - name: 정보보안
+        - name: 웹 보안
           icon: key
           icon_pack: fas
-          description: <span style="font-size:80%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
+          description: <span style="font-size:80%">공부했던 웹을 기반으로 웹 보안을 공부.</span><br><br>
+        - name: 모바일 어플리케이션
+          icon: mobile-screen
           icon_pack: fas
-          description:  <span style="font-size:80%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
-        - name: 의료수학(Medical Math)
-          icon: calculator
+          description:  <span style="font-size:80%">안드로이드 기반의 모바일 앱 개발.</span><br><br>
+        - name: 소프트웨어 공학
+          icon: chalkboard-user
           icon_pack: fas
-          description:  <span style="font-size:80%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
-        - name: 컨텐츠 (Contents)
-          icon: comment-dots
+          description:  <span style="font-size:80%">소프트웨어 공학을 바탕으로 리더쉽 있게 프로젝트를 이끌어감.</span><br><br>
+        - name: 그림
+          icon: object-ungroup
           icon_pack: fas
-          description:  <span style="font-size:80%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
-        - name: 개발 (Development)
+          description:  <span style="font-size:80%">다양한 그림을 그려 아이디어를 구체화</span><br><br>
+        - name: 개발
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:80%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
-        - name: 솔루션 (Solution)
-          icon: app-store-ios
-          icon_pack: fab
-          description:  <span style="font-size:80%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+          description:  <span style="font-size:80%">스프링 부트로 풀스택 웹 개발.</span><br><br>
+        - name: 해킹
+          icon: masks-theater
+          icon_pack: fas
+          description:  <span style="font-size:80%">파이썬을 기반으로 다양한 해킹요 코드 제작</span><br><br>
 
 
   - block: collection

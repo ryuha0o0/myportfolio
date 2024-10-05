@@ -9,16 +9,15 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
+        연락을 원하시는 분은 이 페이지를 참고해주세요
+      email: iq1564@jbnu.ac.kr
       phone: 010-7148-3023
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
+        street: 전북대 7호관
+        city: 전북특별자치도 전주
         postcode: '94305'
-        country: United States
-        country_code: US
+        country: 대한민국
+        country_code: KO
       coordinates:
         latitude: '35.84601324617979'
         longitude: '127.13444961966684'
@@ -29,7 +28,7 @@ sections:
       contact_links:
         - icon: comments
           icon_pack: fas
-          name: Discuss on Forum
+          name: 디스코드로 연락
           link: 'https://discord.com/channels/1143851795567869952/1143851796155076630'
     
       # Automatically link email and phone or display as text?
