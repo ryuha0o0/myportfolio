@@ -30,9 +30,6 @@ en:
       name: Previous Portfolio
       url: event/previousportfolio
       weight: 21
-    - name: Profile
-      url: selfintro
-      weight: 30
     - name: post
       url: post
       weight: 40
@@ -42,6 +39,9 @@ en:
     - name: Contact
       url: contact
       weight: 60
+    - name: profile
+      url: selfintro
+      weight: 70
 
 # Uncomment the lines below to configure your website in a second language.
 ko:
