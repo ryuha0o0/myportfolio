@@ -177,11 +177,28 @@ sections:
         folders:
           - notification
           - post
+    design:
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;"
+      
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
           - event
     design:
       view: community/custom_card
       columns: '2'
-
+      
   - block: collection
     content:
       title: Latest Publications
