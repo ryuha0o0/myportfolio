@@ -1,9 +1,6 @@
 ---
 title: The North
 
-event: Web Project named NORTH
-event_url: https://github.com/ryuha0o0/WService
-
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
@@ -45,18 +42,7 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-<div style="text-align: justify;">
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
-
-Further event details, including page elements such as image galleries, can be added to the body of this page.
-
-🛣️ **File Vulnerability**
-
-This section covers File Upload Vulnerability and File Download Vulnerability!
-
-you can see my past posts in my velog [https://velog.io/@iq1564/posts](https://velog.io/@iq1564/posts)
-</div>
+<dl>
+    <dt>깃허브 주소</dt>
+    <dd><a href="https://github.com/ryuha0o0/WService" target="_blank">https://github.com/ryuha0o0/WService</a></dd>
+</dl>
