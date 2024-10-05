@@ -1,48 +1,28 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# 류하영의 포트폴리오
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+안녕하세요! 제 이름은 류하영입니다. 전북대학교 IT지능정보공학과 3학년 2학기에 재학 중이며, 웹 서비스 개발과 정보 보안에 대한 관심을 가지고 있습니다.
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## 학력
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- **전북대학교 IT지능정보공학과** (2022년 입학)
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## 관심 분야
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- 정보보안 (information security)
+- 웹 개발 (Full Stack Web Development)
+- 모발일 앱 개발 (Mobile App Development)
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+## 소셜 미디어
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+- **이메일:** [iq1564@jbnu.ac.kr](mailto:iq1564@jbnu.ac.kr)
+- **Instagram:** [@ha.0_1114](https://www.instagram.com/ha.0_1114/)
+- **GitHub:** [ryuha0o0](https://github.com/ryuha0o0)
+- **이력서:** [3학년 경력 활동 계획서](uploads/3학년_경력활동계획서.pdf)
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+## 자기 소개
 
-## We ask you, humbly, to support this open source movement
+지금까지 웹 서비스 개발을 위주로 공부해왔으며, 최근에는 정보 보안에 대한 공부를 다시 시작했습니다. 제 정보 보안 공부 일기를 보고 싶으시다면 제 [벨로그](https://velog.io/@iq1564/posts) 에 오셔서 구경해보세요!
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+제 취미는 공포 게임을 하는 것과 식물을 기르는 것입니다. 제 생일은 2003년 11월 14일이며, 현재 22살입니다. 많은 관심과 성원 부탁드립니다!
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-## Demo credits
-
-Please replace the demo images with your own.
-
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+---

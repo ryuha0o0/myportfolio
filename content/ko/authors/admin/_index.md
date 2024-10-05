@@ -25,9 +25,9 @@ organizations:
 bio: 제 포트폴리오에 관심 가져주셔서 감사합니다.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 정보보안 (information security)
+  - 웹 개발 (Full Stack Web Development)
+  - 모발일 앱 개발 (Mobile App Development)
 
 education:
   courses:

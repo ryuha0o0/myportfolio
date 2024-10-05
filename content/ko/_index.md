@@ -201,7 +201,7 @@ sections:
       
   - block: collection
     content:
-      title: Latest Publications
+      title: Travel records
       subtitle:
       text:
       count: 3
