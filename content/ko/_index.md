@@ -179,7 +179,7 @@ sections:
           - post
           - event
     design:
-      view: layouts/patials/views/community/custom_card
+      view: /layouts/patials/custom_card
       columns: '2'
 
   - block: collection
@@ -198,7 +198,7 @@ sections:
       order: desc
       page_type: publication
     design:
-      view: community/custom_card
+      view: patials/custom_card
       columns: '2'
     advanced:
       css_style: "text-align: center;"

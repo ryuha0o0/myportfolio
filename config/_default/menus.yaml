@@ -18,7 +18,7 @@ main:
     name: Board
     url: event/example
     weight: 21
-  - name: People
+  - name: Profile
     url: author/류하영/
     weight: 30
   - name: post
