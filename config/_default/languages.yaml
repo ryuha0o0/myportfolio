@@ -40,7 +40,7 @@ en:
       url: contact
       weight: 60
     - name: profile
-      url: selfintro
+      url: en/selfintro
       weight: 70
 
 # Uncomment the lines below to configure your website in a second language.
