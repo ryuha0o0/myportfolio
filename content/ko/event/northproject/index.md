@@ -45,7 +45,7 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
+<div style="text-align: justify;">
 Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
@@ -53,3 +53,10 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
 Further event details, including page elements such as image galleries, can be added to the body of this page.
+
+🛣️ **File Vulnerability**
+
+This section covers File Upload Vulnerability and File Download Vulnerability!
+
+you can see my past posts in my velog [https://velog.io/@iq1564/posts](https://velog.io/@iq1564/posts)
+</div>
