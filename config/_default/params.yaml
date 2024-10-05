@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: green
-  theme_night: green
+  theme_day: '#3498db'
+  theme_night: '#2ecc71'
   font: Arial  # Arial 폰트로 변경
   font_size: M  # 글꼴 크기를 Medium으로 설정
 
