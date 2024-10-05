@@ -10,12 +10,11 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Session
+  - Web Security
+  - Cookie
 ---
 <style>
     body {

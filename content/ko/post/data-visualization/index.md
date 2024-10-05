@@ -5,12 +5,17 @@ date: 2024-09-30
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Web Hacking
+  - Web security
+  - File Vulnerability
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 
 ## File Upload Vulnerability(파일 업로드 취약성)
 

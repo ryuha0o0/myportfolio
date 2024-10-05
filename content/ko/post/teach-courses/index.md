@@ -6,13 +6,15 @@ math: true
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+  - OS
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 ### 주요 상수 및 구조체 정의
 
 - **상수 정의**:
