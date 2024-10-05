@@ -1,22 +1,41 @@
+{{ $image := .Resources.GetMatch "featured.jpg" }}  <!-- 이미지 파일 경로를 직접 지정하거나 대체 -->
+{{ $has_attachments := partial "functions/has_attachments" . }}
+
+{{ $link := .RelPermalink }}
+{{ $target := "" }}
+{{ if .Params.external_link }}
+  {{ $link = .Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if .Params.summary }}
+  {{ $summary = .Params.summary | markdownify | emojify }}
+{{ else if .Params.abstract }}
+  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if .Summary }}
+  {{ $summary = .Summary }}
+{{ end }}
+
 <div class="card" style="max-width: 300px; margin: 20px auto; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden; transition: transform 0.3s;">
-  {{ with $resource }}
-  {{ $image := .Resize "300x200" }}
-  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+  {{ with $image }}
+  {{ $resizedImage := .Resize "300x200" }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
-    <img src="{{ $image.RelPermalink }}" height="200" width="300"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="border-top-left-radius: 12px; border-top-right-radius: 12px; width: 100%; height: auto; object-fit: cover;">
+    <img src="{{ $resizedImage.RelPermalink }}" height="200" width="300"
+         alt="{{ .Title }}" class="img-responsive" loading="lazy" style="border-top-left-radius: 12px; border-top-right-radius: 12px; width: 100%; height: auto; object-fit: cover;">
   </a>
   {{ end }}
 
   <div class="card-text" style="padding: 15px;">
     <div class="section-subheading article-title mb-1 mt-3">
-      <h4 style="font-size: 18px; font-weight: bold;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: #333;">{{ $item.Title | markdownify | emojify }}</a></h4>
+      <h4 style="font-size: 18px; font-weight: bold;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: #333;">{{ .Title | markdownify | emojify }}</a></h4>
     </div>
 
-    {{ if $item.Params.authors }}
+    {{ if .Params.authors }}
     <div class="article-metadata" style="font-size: 14px; color: #555; margin-bottom: 10px;">
       <div>
-        {{ partial "page_metadata_authors" $item }}
+        {{ partial "page_metadata_authors" . }}
       </div>
     </div>
     {{ end }}
@@ -29,7 +48,7 @@
 
     {{ if $has_attachments }}
     <div class="btn-links" style="margin-top: 10px;">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      {{ partial "page_links" (dict "page" . "is_list" 1) }}
     </div>
     {{ end }}
   </div>
