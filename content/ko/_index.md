@@ -158,10 +158,10 @@ sections:
           icon: laptop
           icon_pack: fas
           description:  <span style="font-size:80%">스프링 부트로 풀스택 웹 개발.</span><br><br>
-        - name: 해킹
+        - name: 모의해킹
           icon: masks-theater
           icon_pack: fas
-          description:  <span style="font-size:80%">파이썬을 기반으로 다양한 해킹요 코드 제작</span><br><br>
+          description:  <span style="font-size:80%">파이썬을 기반으로 다양한 해킹 코드 제작</span><br><br>
 
 
   - block: collection

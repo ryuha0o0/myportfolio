@@ -21,10 +21,6 @@ sections:
       coordinates:
         latitude: '35.84601324617979'
         longitude: '127.13444961966684'
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
       contact_links:
         - icon: comments
           icon_pack: fas

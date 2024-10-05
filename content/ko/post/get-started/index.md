@@ -17,6 +17,11 @@ tags:
   - Hugo Blox
   - Markdown
 ---
+<style>
+    body {
+        text-align: justify; /* 양쪽 정렬 */
+    }
+</style>
 
 ### 쿠키 (Cookie)
 
