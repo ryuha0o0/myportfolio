@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ryu ha-young
+title: Ryu-ha-young
 
 # Full Name (for SEO)
 first_name: Hayoung
@@ -8,7 +8,7 @@ last_name: Ryu
 
 # Username (this should match the folder name)
 authors:
-  -  hayoung
+  -  admin
 
 # Is this the primary user of the site?
 superuser: true
