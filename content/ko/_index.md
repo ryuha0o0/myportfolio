@@ -181,7 +181,7 @@ sections:
       view: community/custom_card
       columns: '2'
     advanced:
-      css_style: "display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;"
+      css_style: "display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;"
       
   - block: collection
     content:
@@ -216,7 +216,7 @@ sections:
       page_type: publication
     design:
       view: community/custom_card
-      columns: '2'
+      columns: '4'
     advanced:
       css_style: "text-align: center;"
 
