@@ -46,7 +46,7 @@ sections:
     content:
       title: <span style="font-size:70%"> This web is my portfolio website </span>
       text: <br><span style="font-size:125%">제 포트폴리오 웹 사이트에 오신 것을 환영합니다!.</span> <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+        <a href="./post/" class="btn">See my posts</a>
       
 
 
@@ -217,7 +217,6 @@ sections:
     design:
       view: community/custom_card
       columns: '1'
-      rows: '4'
 
   - block: markdown
     content:
