@@ -19,7 +19,7 @@ main:
     url: event/example
     weight: 21
   - name: People
-    url: people
+    url: people/author/admin/
     weight: 30
   - name: post
     url: post
