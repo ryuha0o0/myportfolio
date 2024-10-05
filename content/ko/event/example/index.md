@@ -1,9 +1,6 @@
 ---
 title: Making Community web for study
 
-Project: Community web
-Project_url: https://github.com/ryuha0o0/Study
-
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
