@@ -20,7 +20,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="max-width: 280px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
+<div class="card" style="max-width: 600px; margin: 20px auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
   {{ with $resource }}
   {{ $image := .Resize "350x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
@@ -30,22 +30,29 @@
   </a>
   {{ end }}
 
-  <div class="custom-card-container" style="display: flex; flex-wrap: wrap; gap: 15px;">
-    {{ range .Items }}
-    <div class="card" style="width: calc(50% - 15px); margin-bottom: 15px;">
-      {{ $item := . }}
-      {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-      {{ $link := $item.RelPermalink }}
-      <a href="{{ $link }}" class="card-image">
-        {{ with $resource }}
-        <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" class="img-responsive">
-        {{ end }}
-      </a>
-      <div class="card-text">
-        <h4>{{ $item.Title }}</h4>
-        <p>{{ $item.Summary }}</p>
+  <div class="card-text" style="padding: 15px;">
+    <div class="section-subheading article-title mb-1 mt-2" style="font-size: 18px; font-weight: bold; color: #333;">
+      <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: inherit;">{{ $item.Title | markdownify | emojify }}</a></h4>
+    </div>
+
+    {{ if $item.Params.authors }}
+    <div class="article-metadata" style="font-size: 14px; color: #777; margin-bottom: 10px;">
+      <div>
+        {{ partial "page_metadata_authors" $item }}
       </div>
     </div>
     {{ end }}
-  </div>
 
+    {{ with $summary }}
+    <div class="article-style" style="font-size: 14px; color: #555;">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ if $has_attachments }}
+    <div class="btn-links" style="margin-top: 10px;">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+  </div>
+</div>
