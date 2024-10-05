@@ -8,7 +8,7 @@ last_name: Ryu
 
 # Username (this should match the folder name)
 authors:
-  - admin
+  -  hayoung
 
 # Is this the primary user of the site?
 superuser: true
