@@ -9,8 +9,8 @@ abstract: '이 포트폴리오는 현재의 포트폴리오를 제작하기 전�
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-09-15T13:00:00Z'
+date_end: '2030-09-29T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).

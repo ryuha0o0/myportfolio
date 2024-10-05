@@ -6,8 +6,8 @@ abstract: '이 프로젝트는 공부를 위해 게시판 웹사이트를 만드
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-01-01T13:00:00Z'
+date_end: '2024-04-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
