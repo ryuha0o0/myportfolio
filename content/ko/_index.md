@@ -199,7 +199,7 @@ sections:
       view: community/custom_card2
       columns: '1'
       
-  - block: Literature of interest
+  - block: collection
     content:
       title: Latest Publications
       subtitle:
