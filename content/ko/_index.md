@@ -217,8 +217,6 @@ sections:
     design:
       view: community/custom_card
       columns: '4'
-    advanced:
-      css_style: "text-align: center;"
 
   - block: markdown
     content:
