@@ -31,7 +31,7 @@ en:
       url: event/previousportfolio
       weight: 21
     - name: Profile
-      url: author/profile
+      url: author/류하영/
       weight: 30
     - name: post
       url: post
