@@ -18,7 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: '전북대 류하영'
-    description: 'check my profile!'
+    description: 'check my profile! - 전북대학교 류하영'
+    keywords: ['류하영','전북대학교','전북대학교 류하영','전북대','전북대 하영']
     twitter: 'GetResearchDev'
     image: 'faraaz-zuberi-YoIq2GyYcAU-unsplash.jpg'
   analytics:
