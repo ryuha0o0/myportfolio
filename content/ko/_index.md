@@ -178,6 +178,7 @@ sections:
           - notification
           - post
     design:
+      view: community/custom_card
       columns: '1'
     advanced:
       css_style: "display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;"
@@ -195,7 +196,7 @@ sections:
         folders:
           - event
     design:
-      view: community/custom_card
+      view: community/custom_card2
       columns: '1'
       
   - block: collection
@@ -214,7 +215,7 @@ sections:
       order: desc
       page_type: publication
     design:
-      view: community/custom_compact
+      view: community/custom_card3
       columns: '1'
 
   - block: markdown
