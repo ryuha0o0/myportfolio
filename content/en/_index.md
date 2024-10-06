@@ -53,7 +53,7 @@ sections:
             image:
               filename: luke-jones-tBvF46kmwBw-unsplash.jpg
               filters:
-                brightness: 1
+                brightness: 0.5
             overlay:
               color: '#0000ff'
               opacity: 0.5
